@@ -27,7 +27,7 @@ url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 url(r'^stocks/', include('stocks.urls'))
 ```
 
-- With you need debugging message please add to `loggers`
+- If you need debugging messages, please add to your `loggers` the following:
 
 ```python
 'stocks_debug': {
